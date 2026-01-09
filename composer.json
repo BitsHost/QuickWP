@@ -1,7 +1,20 @@
 {
-  "name": "quickwp/quickwp",
-  "description": "QuickWP – WordPress REST tools (class-based refactor sandbox)",
+  "name": "bitshost/quickwp",
+  "description": "QuickWP – A modern PHP toolkit for managing WordPress sites via the REST API. Provides clean OOP architecture, multi-site support, and ready-to-use web tools for posts, pages, media, taxonomies, and custom post types.",
   "type": "project",
+  "keywords": ["wordpress", "rest-api", "wp-api", "cms", "content-management", "posts", "pages", "media"],
+  "homepage": "https://github.com/bitshost/quickwp",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adrian D",
+      "email": "contact@delvirai.net",
+      "homepage": "https://bitshost.net",
+      "role": "Developer"
+    }
+  ],
   "require": {
     "php": ">=7.4"
   },
