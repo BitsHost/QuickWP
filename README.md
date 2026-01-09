@@ -2,8 +2,21 @@
 
 [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue)](https://php.net)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Packagist](https://img.shields.io/packagist/v/bitshost/quickwp)](https://packagist.org/packages/bitshost/quickwp)
 
 QuickWP is a modern, class-based PHP toolkit for managing WordPress sites via the REST API. It provides both a clean programmatic API and ready-to-use web tools for common WordPress operations.
+
+## 📦 Installation
+
+```bash
+composer require bitshost/quickwp
+```
+
+## 📋 Requirements
+
+- PHP 7.4+
+- WordPress site with REST API enabled
+- WordPress Application Password for authentication
 
 ## ✨ Features
 
@@ -53,15 +66,21 @@ QuickWP/
 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### 1. Install via Composer
 
 ```bash
-composer install
+composer require bitshost/quickwp
 ```
+
+Or clone the repository and run `composer install`.
 
 ### 2. Configure Your Site
 
-Edit `quick-config.php` with your WordPress site details:
+Copy the example config and edit with your WordPress site details:
+
+```bash
+cp quick-config.example.php quick-config.php
+```
 
 ```php
 <?php
